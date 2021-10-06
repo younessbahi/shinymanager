@@ -1,4 +1,7 @@
-@font-face {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/*@font-face {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -10,7 +13,7 @@
     font-style: normal;
     font-weight: 700;
     src: url(../fonts/Raleway_700.ttf) format('truetype');
-}
+}*/
 
 /*!
  * bootswatch v3.3.7
@@ -24,13 +27,14 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  *//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-    font-family: sans-serif;
+    font-family: Montserrat, sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
 
 body {
     margin: 0
+    font-family: inherit;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
@@ -272,6 +276,7 @@ td, th {
 
     .label {
         border: 1px solid #000
+        font-family: inherit
     }
 
     .table {
@@ -2976,7 +2981,7 @@ output {
     font-weight: 300 !important;
     line-height: 1.5 !important;
     color: #495057 !important;
-    background-color: #fff !important;
+    background-color: #f2f2f2 !important;
     background-clip: padding-box !important;
     border: none !important;
     border-radius: .5rem !important;
