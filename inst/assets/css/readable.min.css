@@ -34,7 +34,14 @@ html {
 
 body {
     margin: 0
-    font-family: inherit;
+    font-family: Montserrat,sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #495057 !important;
+    margin: 0;
+    text-align: left;
+    background-color: #f9fbfd !important;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
@@ -1471,11 +1478,13 @@ hr {
     cursor: pointer
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: bold;
+
+, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Montserrat",sans-serif;
     line-height: 1.1;
-    color: inherit
+    color: inherit;
+    font-weight: 500;
+    font-size: 1.75rem !important;
 }
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
@@ -2908,10 +2917,14 @@ legend {
 }
 
 label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
     display: inline-block;
     max-width: 100%;
     margin-bottom: 5px;
-    font-weight: bold
+    font-weight: bold;
+    color: #888 !important;
+        
 }
 
 input[type="search"] {
@@ -2977,7 +2990,7 @@ output {
     width: 100% !important;
     height: calc(1.5em + .75rem + 2px) !important;
     padding: .375rem 1rem !important;
-    font-size: 1rem !important;
+    font-size: 1.4rem !important;
     font-weight: 300 !important;
     line-height: 1.5 !important;
     color: #495057 !important;
@@ -3433,7 +3446,7 @@ textarea.input-lg, select[multiple].input-lg {
     }
 }
 
-.btn {
+/*.btn {
     display: inline-block;
     margin-bottom: 0;
     font-weight: normal;
@@ -3453,6 +3466,19 @@ textarea.input-lg, select[multiple].input-lg {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none
+}*/
+.btn {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400;
+    font-size: 13px;
+    padding: .4rem .8rem;
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border-radius: .5rem;
+    transition: color .1s ease-in-out,background-color .1s ease-in-out,border-color .1s ease-in-out;
 }
 
 .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
@@ -3536,26 +3562,26 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 .btn-primary:focus, .btn-primary.focus {
     color: #ffffff;
-    background-color: #1863e6;
-    border-color: #1045a1
+    background-color: #1670ae;
+    border-color: #1469a3;
 }
 
 .btn-primary:hover {
     color: #ffffff;
-    background-color: #1863e6;
-    border-color: #175fdd
+    background-color: #1670ae;
+    border-color: #1469a3;
 }
 
 .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
     color: #ffffff;
-    background-color: #1863e6;
-    border-color: #175fdd
+    background-color: #1670ae;
+    border-color: #1469a3;
 }
 
 .btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus {
     color: #ffffff;
-    background-color: #1455c6;
-    border-color: #1045a1
+    background-color: #1670ae;
+    border-color: #1469a3;
 }
 
 .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
@@ -6119,7 +6145,8 @@ a.list-group-item-danger.active, button.list-group-item-danger.active, a.list-gr
 }
 
 .panel-primary {
-    border-color: #4582ec
+    /*border-color: #4582ec*/
+    
 }
 
 .panel-primary > .panel-heading {
@@ -7265,7 +7292,7 @@ button.close {
 }
 
 .navbar {
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family: "Montserrat",sans-serif
 }
 
 .navbar-nav, .navbar-form {
@@ -7315,15 +7342,15 @@ button.close {
 }
 
 .btn {
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family: "Montserrat", sans-serif
 }
 
 legend {
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family: "Montserrat", sans-serif
 }
 
 .input-group-addon {
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family: "Montserrat",  sans-serif
 }
 
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
@@ -7331,7 +7358,7 @@ legend {
 }
 
 .pagination {
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family: "Montserrat", sans-serif
 }
 
 .pagination-lg > li > a, .pagination-lg > li > span {
@@ -7339,7 +7366,7 @@ legend {
 }
 
 .pager {
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family: "Montserrat", sans-serif
 }
 
 .pager a {
@@ -7373,7 +7400,7 @@ legend {
 }
 
 .label {
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: normal
 }
 
@@ -7385,7 +7412,7 @@ legend {
 .badge {
     padding: 1px 7px 5px;
     vertical-align: 2px;
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: normal
 }
 
