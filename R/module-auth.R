@@ -106,7 +106,8 @@ auth_ui <- function(id, status = "primary", tags_top = NULL,
               tags$div(
                 style = "text-align: center;",
                 if (!is.null(tags_top)) tags_top,
-                tags$h3(lan$get("Please authenticate"), id = ns("shinymanager-auth-head"))
+                tags$h3(lan$get("Please authenticate"), id = ns("shinymanager-auth-head")),
+                 tags$label("Provide your username and password to login") #todo: translation not initiated yet
               ),
               tags$br(),
               textInput(
