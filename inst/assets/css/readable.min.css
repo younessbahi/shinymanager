@@ -2968,20 +2968,20 @@ output {
 
 .form-control {
     display: block;
-    font-family: Montserrat,sans-serif;
-    width: 100%;
-    height: calc(1.5em + .75rem + 2px);
-    padding: .375rem 1rem;
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: none;
-    border-radius: .5rem;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+    font-family: Montserrat,sans-serif !important;
+    width: 100% !important;
+    height: calc(1.5em + .75rem + 2px) !important;
+    padding: .375rem 1rem !important;
+    font-size: 1rem !important;
+    font-weight: 300 !important;
+    line-height: 1.5 !important;
+    color: #495057 !important;
+    background-color: #fff !important;
+    background-clip: padding-box !important;
+    border: none !important;
+    border-radius: .5rem !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
 }
 
 
@@ -2993,14 +2993,14 @@ output {
 }*/
 
 .form-control:focus {
-    color: #495057;
-    background-color: #ededed;
-    border-color: transparent;
-    outline: 0;
-    box-shadow: none;
+    color: #495057 !important;
+    background-color: #ededed !important;
+    border-color: transparent !important;
+    outline: 0 !important;
+    box-shadow: none !important;
 }
 input:focus-visible {
-    outline-offset: 0px;
+    outline-offset: 0px !important;
 }
 
 
