@@ -6150,6 +6150,13 @@ a.list-group-item-danger.active, button.list-group-item-danger.active, a.list-gr
     
 }
 
+.panel.panel-primary {
+    max-width: 360px !important;
+    padding: 30px!important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
 .panel-primary > .panel-heading {
     color: #ffffff;
     background-color: #4582ec;
